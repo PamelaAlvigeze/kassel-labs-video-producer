@@ -1,0 +1,27 @@
+{
+  "clientes": [
+    {
+      "cnpj": "01.928.986/0001-27",
+      "nome": "Pikachu video",
+      "telefone": "typicode ",
+      "email": "teste@gmail.com"
+    }
+  ],
+
+  "videos": [
+    {
+      "titulo": "teste video",
+      "briefing": "algum briefing ",
+      "preco": "R$100,00",
+      "dataEntrega": "20/02/2022",
+      "status": "pendente"
+    }
+
+  ],
+
+  "clientesVideos": [{
+    "cnpjCliente": "01.928.986/0001-27",
+    "tituloVideo": "teste video"
+  }]
+
+}
