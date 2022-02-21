@@ -66,7 +66,13 @@ function Cadastro() {
             onChange={(evento) => setEmail(evento.target.value)}
           />
         </div>
-        <button onClick={() => cadastrarValores(cnpj, nome, telefone, email)} type="button" className="btn btn-outline-success">Cadastrar</button>
+        <button 
+          onClick={() => cadastrarValores(cnpj, nome, telefone, email)} 
+          type="button" 
+          className="btn btn-outline-success"
+        >
+          Cadastrar
+        </button>
       </form>
     </div>
   )

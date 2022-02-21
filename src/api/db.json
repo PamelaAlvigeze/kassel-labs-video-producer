@@ -10,12 +10,18 @@
   ],
   "videos": [
     {
-      "titulo": "teste video",
-      "briefing": "algum briefing ",
-      "preco": "R$100,00",
-      "dataEntrega": "20/02/2022",
-      "status": "pendente",
-      "cnpjCliente": "01.928.986/0001-27"
+      "id": 935,
+      "titulo": "sarah",
+      "briefing": "teste",
+      "preco": "100,00",
+      "data": "07/03/1996"
+    },
+    {
+      "id": 728,
+      "titulo": "",
+      "briefing": "",
+      "preco": "",
+      "data": ""
     }
   ]
 }
