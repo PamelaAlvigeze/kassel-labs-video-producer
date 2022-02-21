@@ -1,27 +1,21 @@
 {
   "clientes": [
     {
+      "id": 733,
       "cnpj": "01.928.986/0001-27",
-      "nome": "Pikachu video",
-      "telefone": "typicode ",
-      "email": "teste@gmail.com"
+      "nome": "Pamela Alvigeze",
+      "telefone": "19997599497",
+      "email": "paalvigeze@gmail.com"
     }
   ],
-
   "videos": [
     {
       "titulo": "teste video",
       "briefing": "algum briefing ",
       "preco": "R$100,00",
       "dataEntrega": "20/02/2022",
-      "status": "pendente"
+      "status": "pendente",
+      "cnpjCliente": "01.928.986/0001-27"
     }
-
-  ],
-
-  "clientesVideos": [{
-    "cnpjCliente": "01.928.986/0001-27",
-    "tituloVideo": "teste video"
-  }]
-
+  ]
 }
