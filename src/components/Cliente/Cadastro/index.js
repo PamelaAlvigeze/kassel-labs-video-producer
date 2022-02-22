@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BASE_URL } from "../../../utils/constants";
+import Titulo from "../../Titulo";
 
 function Cadastro() {
   const [cnpj, setCnpj] = useState("");
@@ -23,8 +24,7 @@ function Cadastro() {
       telefone: telefone,
       email: email
     };
-    if(cnpj !== "" && nome !== "" && telefone !== "" && email !== "") {
-      
+    if(cnpj !== "" && nome !== "" && telefone !== "" && email !== "") {  
     try {
       const response = await fetch(BASE_URL + "clientes", {
         method: "POST",
@@ -47,7 +47,7 @@ function Cadastro() {
 
   return (
     <div>
-      <h1> Cadastro de Clientes</h1>
+      <Titulo text= "Cadastrar de Clientes" />
       <form>
         <div className="mb-3">
           <label htmlFor="CNPJFormControlInput1" className="form-label">CNPJ</label>
@@ -94,9 +94,9 @@ function Cadastro() {
           />
         </div>
         <button
-          onClick={() => cadastrarValores(cnpj, nome, telefone, email)}
           type="button"
           className="btn btn-outline-success"
+          onClick={() => cadastrarValores(cnpj, nome, telefone, email)}
         >
           Cadastrar
         </button>
