@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BASE_URL } from "../../../utils/constants";
 
 function CadastroVideo() {
 	const [titulo, setTitulo] = useState("");
@@ -7,13 +8,43 @@ function CadastroVideo() {
 	const [data, setData] = useState("");
 	let valoresVideos = {};
 
-	function cadastraVideo(titulo, briefing, preco, data) {
-		valoresVideos = { id: Math.floor(Math.random() * 1000), titulo: titulo, briefing: briefing, preco: preco, data: data };
-		fetch("http://localhost:5000/videos", {
+
+	function resetaForm() {
+		setTitulo("");
+		setBriefing("");
+		setPreço("");
+		setData("");
+	  }
+
+	async function cadastraVideo(titulo, briefing, preco, data) {
+	valoresVideos = { 
+		id: Math.floor(Math.random() * 1000), 
+		titulo: titulo, 
+		briefing: briefing, 
+		preco: preco,
+		data: data 
+	};
+
+	if(titulo !== "" && briefing !== "" && preco !== "" && data !== "") {
+      
+		try {
+		  const response = await fetch(BASE_URL + "videos", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify(valoresVideos)
-		});
+		  });
+	
+		  if (response.ok) {
+			console.log("Cadastrado com sucesso");
+			resetaForm();
+		  }
+	
+		} catch (e) {
+		  console.error('Erro ao cadastrar video')
+		}
+	  } else {
+		console.log("Cadastro inválido, tente novamente");
+	  }
 	};
 	
 	return (
