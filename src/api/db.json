@@ -8,55 +8,5 @@
       "email": "paalvigeze@gmail.com"
     }
   ],
-  "videos": [
-    {
-      "id": 935,
-      "titulo": "sarah",
-      "briefing": "teste",
-      "preco": "100,00",
-      "data": "07/03/1996"
-    },
-    {
-      "id": 728,
-      "titulo": "",
-      "briefing": "",
-      "preco": "",
-      "data": ""
-    },
-    {
-      "id": 892,
-      "titulo": "pamela",
-      "briefing": "testando",
-      "preco": "1000",
-      "data": "08052002"
-    },
-    {
-      "id": 43,
-      "titulo": "",
-      "briefing": "",
-      "preco": "",
-      "data": ""
-    },
-    {
-      "id": 517,
-      "titulo": "",
-      "briefing": "",
-      "preco": "",
-      "data": ""
-    },
-    {
-      "id": 472,
-      "titulo": "ajsiwsh",
-      "briefing": "oi",
-      "preco": "100",
-      "data": "08052002"
-    },
-    {
-      "id": 965,
-      "titulo": "",
-      "briefing": "jsq",
-      "preco": "s",
-      "data": ""
-    }
-  ]
+  "videos": []
 }
