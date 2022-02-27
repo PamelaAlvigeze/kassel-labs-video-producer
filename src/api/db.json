@@ -1,12 +1,79 @@
 {
   "clientes": [
     {
-      "id": 519,
-      "cnpj": "01.928.986/0001-27",
-      "nome": "Pamela Alvigeze",
-      "telefone": "19997599497",
-      "email": "paalvigeze@gmail.com"
+      "cnpj": "47.749.115/0001-47",
+      "nome": "Igor e Davi Buffet ME",
+      "telefone": "(12) 37623227",
+      "email": "estoqueIg@gmail.com",
+      "id": 642
+    },
+    {
+      "cnpj": "91.539.001/0001-64",
+      "nome": "Letícia e Lavínia Ferragens Ltda",
+      "telefone": "(11) 993835836",
+      "email": "lferrage@hotmail.com",
+      "id": 230
+    },
+    {
+      "id": 502,
+      "cnpj": "52.045.670/0001-28",
+      "nome": "Raul e Fátima Lavanderia Ltda",
+      "telefone": "(19) 995579046",
+      "email": "cobranca@gmail.com"
+    },
+    {
+      "id": 388,
+      "cnpj": "70.479.339/0001-06",
+      "nome": "Luís e Enrico Esportes Ltda",
+      "telefone": "(17) 37323636",
+      "email": "jluiseenricoesportesltda@gmail.com"
     }
   ],
-  "videos": []
+  "videos": [
+    {
+      "titulo": "Amostra de eventos",
+      "briefing": "O vídeo deverá mostrar momentos marcantes de casamentos",
+      "preco": "200",
+      "data": "2022-02-26",
+      "cliente": {
+        "cnpj": "47.749.115/0001-47",
+        "nome": "Igor e Davi Buffet ME",
+        "telefone": "(12) 37623227",
+        "email": "estoqueIg@gmail.com",
+        "id": 642
+      },
+      "status": "Pendente",
+      "id": 393
+    },
+    {
+      "titulo": "Porque ir na lavanderia?",
+      "briefing": "Mostrar dia a dia da lavanderia",
+      "preco": "100",
+      "data": "2022-01-14",
+      "cliente": {
+        "id": 502,
+        "cnpj": "52.045.670/0001-28",
+        "nome": "Raul e Fátima Lavanderia Ltda",
+        "telefone": "(19) 995579046",
+        "email": "cobranca@gmail.com"
+      },
+      "status": "Concluido",
+      "id": 401
+    },
+    {
+      "id": 860,
+      "titulo": "Mostrar produtos lavanderia",
+      "briefing": "Exposição de produtos usados no dia a dia",
+      "preco": "150",
+      "data": "2022-04-20",
+      "cliente": {
+        "id": 502,
+        "cnpj": "52.045.670/0001-28",
+        "nome": "Raul e Fátima Lavanderia Ltda",
+        "telefone": "(19) 995579046",
+        "email": "cobranca@gmail.com"
+      },
+      "status": "Pendente"
+    }
+  ]
 }

@@ -1,8 +1,7 @@
-function Titulo({ text, tag }) {
-  const Tag = tag || 'h3';
+function Titulo({ text }) {
   
   return (
-    <Tag> {text}</Tag>
+    <h3> {text}</h3>
   );
 }
 
